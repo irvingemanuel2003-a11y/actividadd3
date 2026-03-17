@@ -1,7 +1,5 @@
 package Problema1;
-
 import java.time.LocalDate;
-
 public class Solicitud {
 
     private String nombreInterprete;

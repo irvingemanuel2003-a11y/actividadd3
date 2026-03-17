@@ -1,5 +1,4 @@
 package Problema1;
-
 import java.time.LocalDate;
 
 public class Composicion {
