@@ -62,6 +62,7 @@ public class Consulta {
         return receta;
     }
 
+
     public void agregarSintoma(String sintoma, int posicion){
         sintomas[posicion] = sintoma;
     }

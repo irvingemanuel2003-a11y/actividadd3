@@ -44,6 +44,10 @@ public class Paciente {
         return consultas;
     }
 
+    public void setConsultas(Consulta[] consultas) {
+        this.consultas = consultas;
+    }
+
     public void agregarConsulta(Consulta c) {   // CORREGIDO
         for (int i = 0; i < consultas.length; i++) {
             if (consultas[i] == null) {
