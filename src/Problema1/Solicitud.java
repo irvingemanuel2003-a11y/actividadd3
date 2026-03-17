@@ -9,9 +9,10 @@ public class Solicitud {
     private LocalDate fechaAutorizacion;
     private String companiaGrabadora;
 
-    public Solicitud(String nombreInterprete, LocalDate fechaSolicitud, String companiaGrabadora) {
+    public Solicitud(String nombreInterprete, LocalDate fechaSolicitud, LocalDate fechaAutorizacion, String companiaGrabadora) {
         this.nombreInterprete = nombreInterprete;
         this.fechaSolicitud = fechaSolicitud;
+        this.fechaAutorizacion = fechaAutorizacion;
         this.companiaGrabadora = companiaGrabadora;
     }
 
