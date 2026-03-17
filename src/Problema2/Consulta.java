@@ -62,9 +62,22 @@ public class Consulta {
         return receta;
     }
 
+    public void agregarSintoma(String sintoma, int posicion){
+        sintomas[posicion] = sintoma;
+    }
+
+    public void agregarDiagnostico(String diagnostico, int posicion){
+        diagnosticoMedico[posicion] = diagnostico;
+    }
+
+    public void agregarMedicamento(String medicamento, int posicion){
+        receta[posicion] = medicamento;
+    }
+
     public void mostrarConsulta() {
         System.out.println(this.toString());
     }
+
 
     @Override
     public String toString() {
