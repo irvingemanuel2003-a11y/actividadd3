@@ -51,6 +51,9 @@ public class Composicion {
         return solicitudes;
     }
 
+    public void setSolicitudes(Solicitud[] solicitudes) {
+        this.solicitudes = solicitudes;
+    }
 
     public String getGeneroMusical() {
         return generoMusical;
